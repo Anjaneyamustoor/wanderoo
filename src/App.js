@@ -16,7 +16,7 @@ function App() {
   }
   return (
     <div className="App">
-      <button onClick={signInWithGoogle}>Sign in with Google</button>
+      <button onClick={signInWithGoogle}>Google </button>
     </div>
   );
 }
