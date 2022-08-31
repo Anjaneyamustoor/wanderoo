@@ -1,15 +1,15 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 const firebaseConfig = {
-    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-    authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-    projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-    storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-    appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
-    measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
-};
-
+    apiKey: "AIzaSyARgnPeczW7_YGwUO_fdy7CAGYf4Qij52g",
+    authDomain: "wanderoo-36e65.firebaseapp.com",
+    projectId: "wanderoo-36e65",
+    storageBucket: "wanderoo-36e65.appspot.com",
+    messagingSenderId: "607604894372",
+    appId: "1:607604894372:web:1985492b8917edd8a31431",
+    measurementId: "G-7M6JLMW7K7"
+  };
+console.log(firebaseConfig)
 const app = initializeApp(firebaseConfig);
 export const authentication = getAuth(app);
   
